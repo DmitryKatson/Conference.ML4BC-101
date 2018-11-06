@@ -29,24 +29,24 @@ Detailed agenda:
 
 <b>Inputs</b>
 - *AML-restaurant-sales-by-menu-item.csv* - historical sales transactions from one particular restaurant
->> *menu_item* - name of menu item
->> *date* - transaction date
->> *stock_count* - qty of item on stock on this date
->> *orders* - qty of orders of this item on this date
+>- *menu_item* - name of menu item
+>- *date* - transaction date
+>- *stock_count* - qty of item on stock on this date
+>- *orders* - qty of orders of this item on this date
 
 - *AML-restaurant-menu-items.csv* - restaurant menu
->> *menu_item* - name of menu item
->> *in_children_menu* - if menu item relates to children menu category
+>- *menu_item* - name of menu item
+>- *in_children_menu* - if menu item relates to children menu category
 
 - *AML-restaurant-int-events.csv* - schedule of internal events organised in this restaurant
->> *date* - calendar date 
->> *children_event* - if children event is scheduled on this date
->> *music_event* - if music event is scheduled on this date
+>- *date* - calendar date 
+>- *children_event* - if children event is scheduled on this date
+>- *music_event* - if music event is scheduled on this date
 
 - *AML-menu-items-max-stock.csv* - maximum allowed qty of menu items on stock, per day
->> *menu_item* - name of menu item
->> *max_stock_quantity* - maximum allowed qty of menu items on stock
+>- *menu_item* - name of menu item
+>- *max_stock_quantity* - maximum allowed qty of menu items on stock
 
 - *AML-city-festivals.csv* - schedule of external events organised in the city, where restaurant is located
->> *date* - calendar date
->> *fest_name* - name of event
+>- *date* - calendar date
+>- *fest_name* - name of event
